@@ -135,6 +135,10 @@ rofi-theme-selector
 rm -rf ~/github
 rm -rfv $ruta
 
+# Instalando docker.ps & compose
+
+sudo apt install -y docker.ps && sudo apt install docker-compose 
+
 # Mensaje de Instalado
 
 notify-send "BSPWM INSTALADO"
