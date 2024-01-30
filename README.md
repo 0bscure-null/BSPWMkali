@@ -2,7 +2,8 @@
 
 1.- Uso del Script
 
-https://github.com/xJackSx/BSPWMkali.git
+https://github.com/xJackSx/BSPWMkali.git (Script Original)
+https://github.com/0bscure-null/BSPWMkali.git (Script updated)
 
 cd BSPWMkali
 
@@ -27,3 +28,5 @@ Esta no esta incluida en el scripts
 UNA MENCION HONORIFICA A Mr. Pr1ngl3s, por su gran colaboración.
 
 UN GRAN SALUDO A NUESTRO GRAN AMIGO S4VITAR.
+
+Script de xXJacksXx
