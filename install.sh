@@ -8,19 +8,75 @@ ruta=$(pwd)
 
 # Instalando dependencias de Entorno
 
-sudo dkpg install -y build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+sudo dkpg install -y build-essential 
+sudo dkpg install -y git 
+sudo dkpg install -y vim 
+sudo dkpg install -y libxcb-util0-dev 
+sudo dkpg install -y libxcb-ewmh-dev 
+sudo dkpg install -y libxcb-randr0-dev 
+sudo dkpg install -y libxcb-icccm4-dev 
+sudo dkpg install -y libxcb-keysyms1-dev 
+sudo dkpg install -y libxcb-xinerama0-dev 
+sudo dkpg install -y libasound2-dev 
+sudo dkpg install -y libxcb-xtest0-dev 
+sudo dkpg install -y libxcb-shape0-dev
 
 # Instalando Requerimientos para la polybar
 
-sudo dkpg install -y cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libuv1-dev libnl-genl-3-dev
+sudo dkpg install -y cmake 
+sudo dkpg install -y cmake-data 
+sudo dkpg install -y pkg-config 
+sudo dkpg install -y python3-sphinx 
+sudo dkpg install -y libcairo2-dev 
+sudo dkpg install -y libxcb1-dev 
+sudo dkpg install -y libxcb-randr0-dev 
+sudo dkpg install -y libxcb-composite0-dev 
+sudo dkpg install -y python3-xcbgen 
+sudo dkpg install -y xcb-proto 
+sudo dkpg install -y libxcb-image0-dev 
+sudo dkpg install -y libxcb-ewmh-dev 
+sudo dkpg install -y libxcb-icccm4-dev 
+sudo dkpg install -y libxcb-xkb-dev 
+sudo dkpg install -y libxcb-xrm-dev 
+sudo dkpg install -y libxcb-cursor-dev 
+sudo dkpg install -y libasound2-dev 
+sudo dkpg install -y libpulse-dev 
+sudo dkpg install -y libjsoncpp-dev 
+sudo dkpg install -y libmpdclient-dev 
+sudo dkpg install -y libuv1-dev 
+sudo dkpg install -y libnl-genl-3-dev
 
 # Dependencias de Picom
 
-sudo dkpg install -y meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev libpcre3 libpcre3-dev
-
+sudo dkpg install -y meson 
+sudo dkpg install -y libxext-dev 
+sudo dkpg install -y libxcb1-dev 
+sudo dkpg install -y libxcb-damage0-dev 
+sudo dkpg install -y libxcb-xfixes0-dev 
+sudo dkpg install -y libxcb-shape0-dev 
+sudo dkpg install -y libxcb-render-util0-dev 
+sudo dkpg install -y libxcb-render0-dev 
+sudo dkpg install -y libxcb-composite0-dev 
+sudo dkpg install -y libxcb-image0-dev 
+sudo dkpg install -y libxcb-present-dev 
+sudo dkpg install -y libxcb-xinerama0-dev 
+sudo dkpg install -y libpixman-1-dev 
+sudo dkpg install -y libdbus-1-dev 
+sudo dkpg install -y libconfig-dev 
+sudo dkpg install -y libpcre2-dev 
+sudo dkpg install -y libevdev-dev 
+sudo dkpg install -y libev-dev 
+sudo dkpg install -y libxcb-glx0-dev 
+sudo dkpg install -y libpcre3 
+sudo dkpg install -y 
 # Instalamos paquetes adionales
 
-sudo dkpg install -y kitty feh scrot scrub rofi xclip bat locate ranger neofetch wmname acpi bspwm sxhkd imagemagick
+sudo dkpg install -y kitty 
+sudo dkpg install -y feh 
+sudo dkpg install -y scrot 
+sudo dkpg install -y scrub 
+sudo dkpg install -y  xclip 
+ bat locate ranger neofetch wmname acpi bspwm sxhkd imagemagick
 
 # Creando carpeta de Reposistorios
 
